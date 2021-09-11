@@ -1,0 +1,300 @@
+@font-face {
+    font-family: nosifer;
+    font-family: oswald;
+    font-family: pacifico;
+    src: url(./fonts/Nosifer-Regular.ttf);
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+    src: url(./fonts/Pacifico-Regular.ttf);
+    font-style: normal;
+}
+/* body font family */
+body{
+    font-family: oswald;
+    font-weight: 300 auto;
+}
+
+/* nav bar design */
+/* nav bar design */
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navlogo{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.navmanu a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    padding: 5px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.navmanu a:hover{
+    color: rgb(23, 110, 38);
+}
+
+/* nav bar design END */
+
+
+/* carousel image height */
+.c-size{
+    height: 550px;
+}
+
+
+
+
+/* our offers design started */
+/* our offers design started */
+.our-offer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    border: 2px solid black;
+    width: 45%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    transition: .4s;
+}
+
+.offer:hover{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.off-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.off-img{
+    width: 100%;
+}
+
+.off-img img{
+    width: 100%;
+}
+
+.off-desc{
+    text-align: center;
+}
+
+/* post design started */
+
+.posts{
+    margin-top: 100px;
+}
+
+
+
+/* card post design started */
+/* card post design started */
+
+.card{
+    position: static;
+    transition: .5s;
+}
+
+.posts{
+    position: static;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px black;
+    position: static;
+}
+
+.posts .card img{
+    height: 220px;
+    position: static;
+    transition: .4s;
+}
+
+.posts img:hover{
+    filter: grayscale(0%);
+    position: static;
+    overflow: hidden;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* card post design */
+/* card post design */
+
+
+
+
+
+/* about section design>>>>>started */
+/* about section design>>>>>started */
+.h-main-about{
+    background-image: url(./carousel/c3.jpg);
+    background-blend-mode: darken;
+}
+
+.home-about{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.h-about-head{
+    text-align: center;
+    font-weight: 900;
+    font-family: nosifer;
+}
+
+.h-about-border{
+    border-left: 8px solid white;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: oswald;
+    font-weight: 100;
+}
+
+/* >>>>>>>>>about a man or about-m section design */
+
+.about-man{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.about-m{
+    background-color: rgba(0, 0, 0, 0.556);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow-x: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.about-m:hover{
+    background-color: rgba(0, 0, 0, 0.256);
+    border: none;
+    box-shadow: 3px 3px 6px black;
+}
+
+.image img{
+    width: 100%;
+    height: 180px;
+    border-radius: 100%;
+}
+
+/* socile logo into a man details */
+
+.socile-logo i{
+    margin: 8px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.socile-logo i:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(229, 255, 0);
+}
+
+/* about section design>>>>>End */
+/* about section design>>>>>End */
+
+
+
+/* follow section is started */
+/* follow section is started */
+.follow{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.follow-txt{
+    font-family: pacifico;
+    text-align: center;
+}
+
+
+.follow-txt h1{
+    font-size: 40px;
+}
+
+.follow-txt p{
+    font-size: 18px;
+}
+
+.follow-icon{
+    text-align: center;
+}
+
+.follow-icon i{
+    font-size: 39px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.follow-icon i:hover{
+    text-shadow: 4px 1px 2px #ffc107;
+}
+/* follow section is End */
+/* follow section is End */
+
+
+
+
+
+/* footer design started */
+/* footer design started */
+
+
+footer table{
+    width: 100%;
+}
+
+footer{
+    background-color: #ffc107;
+}
+
+.footer-table{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-table tr td{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.active{
+    text-shadow: 1px 1px 2px black;
+}
+
+.active,
+.footer-table tr td:hover{
+    color: white;
+    text-shadow: .5px .5px 1px black;
+}
+
+/* footer design End */
+/* footer design End */
